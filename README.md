@@ -1,2 +1,2 @@
 # 99-pyton
-99 programming problems in Pyton
+99 programming problems in Python
