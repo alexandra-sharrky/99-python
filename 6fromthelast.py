@@ -1,16 +1,15 @@
-#l=input('Enter the list')
-#l.reverse()
-#print(l)
-#print(lis[1])
-#lis1=lis
-#lis.reverse()
-#if lis1==lis
-#    print("Your list is a palindrome")
-#else
-#    print("Your list is not a palindrome")
+# It is 6-th programming problem
+# Find out whether a list is a palindrome.
+# A palindrome can be read forward or backward; e.g. (x a m a x).
+# http://www.ic.unicamp.br/~meidanis/courses/mc336/2006s2/funcional/L-99_Ninety-Nine_Lisp_Problems.html
+s = input("Enter your list")
 
-input_list = int(input("enter a sequence of integers"))
-new_list = copy(input_list)
-print(new_list)
-#oo.reverse()
-#print(o)
+l = len(s)
+
+for i in range(l//2):
+    if s[i] != s[-1-i]:
+        print("It's not palindrome")
+        quit()
+
+print("It's palindrome")
+
