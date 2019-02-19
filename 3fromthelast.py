@@ -12,7 +12,7 @@ def list3():
         try:
             length_list=input("Enter the length of the random list you would like to create: ")
             range_list=input("Enter the range to which you would like the numbers to be picked from: 0-")
-            List = random.sample(range(range_list),length_list)
+            List = random.sample(range(range_list),length_list) #creating random list
             k = input("What element would you like to pick?")
             x = k-1
             print("The element corresponding to element("+str(k)+") is: "+str(List[x]))
